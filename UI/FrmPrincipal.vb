@@ -14,26 +14,18 @@
         'log out
     End Sub
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
-        OpenChildForm(New FrmIngresar)
+        OpenChildForm(New FrmIngresar, PanelChildForm)
     End Sub
 
     Private Sub btnIngresarMedico_Click(sender As Object, e As EventArgs) Handles btnIngresarMedico.Click
-
+        OpenChildForm(New FrmMedico, PanelChildForm)
     End Sub
 
-    Private currentForm As Form = Nothing 'form en el panel no esta visible porque es el inicio de la app
-    'Metodo para abrir ventanas dentro de la principal
-    Public Sub OpenChildForm(childForm As Form)
-        If currentForm IsNot Nothing Then currentForm.Close() 'prenguto si hay un form abierto
-        currentForm = childForm 'cargo el form que quiero abrir
-        'Le pongo los estilos que necesito
-        childForm.TopLevel = False
-        childForm.FormBorderStyle = FormBorderStyle.None
-        childForm.Dock = DockStyle.Fill
-        PanelChildForm.Controls.Add(childForm)
-        PanelChildForm.Tag = childForm
-        'muestro el form
-        childForm.BringToFront()
-        childForm.Show()
+    Private Sub btnModificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
+        OpenChildForm(New FrmModificar, PanelChildForm)
+    End Sub
+
+    Private Sub BtnEliminar_Click(sender As Object, e As EventArgs) Handles BtnEliminar.Click
+        OpenChildForm(New FrmEliminar, PanelChildForm)
     End Sub
 End Class

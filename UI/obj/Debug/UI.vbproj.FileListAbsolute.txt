@@ -77,3 +77,6 @@ C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.vbproj.
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.exe
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.xml
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.pdb
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmMedico.resources
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmModificar.resources
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmEliminar.resources

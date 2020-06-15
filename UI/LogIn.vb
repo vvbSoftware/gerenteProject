@@ -34,11 +34,7 @@ Public Class LogIn
     End Sub
 #Region "Estilisado"
     Private Sub Button1_Paint(sender As Object, e As PaintEventArgs) Handles btnLogin.Paint
-        Dim buttonPath As Drawing2D.GraphicsPath = New Drawing2D.GraphicsPath()
-        Dim myRectangle As Rectangle = btnLogin.ClientRectangle
-        myRectangle.Inflate(0, 30)
-        buttonPath.AddEllipse(myRectangle)
-        btnLogin.Region = New Region(buttonPath)
+        BotonRedondeado(btnLogin)
     End Sub
 #Region "funcionamiento text area"
     Private Sub txtUser_Enter(sender As Object, e As EventArgs) Handles txtUser.Enter

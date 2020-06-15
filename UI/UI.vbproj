@@ -75,10 +75,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmEliminar.Designer.vb">
+      <DependentUpon>FrmEliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmIngresar.Designer.vb">
       <DependentUpon>FrmIngresar.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmIngresar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMedico.Designer.vb">
+      <DependentUpon>FrmMedico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMedico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificar.Designer.vb">
+      <DependentUpon>FrmModificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPrincipal.designer.vb">
@@ -94,6 +112,7 @@
       <DependentUpon>LogIn.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -111,8 +130,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmEliminar.resx">
+      <DependentUpon>FrmEliminar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmIngresar.resx">
       <DependentUpon>FrmIngresar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMedico.resx">
+      <DependentUpon>FrmMedico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificar.resx">
+      <DependentUpon>FrmModificar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.vb</DependentUpon>
