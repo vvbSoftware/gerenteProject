@@ -11,10 +11,14 @@
     End Sub
 
     Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
-        'para cerrar sesion
+        'log out
     End Sub
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
         OpenChildForm(New FrmIngresar)
+    End Sub
+
+    Private Sub btnIngresarMedico_Click(sender As Object, e As EventArgs) Handles btnIngresarMedico.Click
+
     End Sub
 
     Private currentForm As Form = Nothing 'form en el panel no esta visible porque es el inicio de la app
@@ -31,9 +35,5 @@
         'muestro el form
         childForm.BringToFront()
         childForm.Show()
-    End Sub
-
-    Private Sub PanelChildForm_Paint(sender As Object, e As PaintEventArgs) Handles PanelChildForm.Paint
-
     End Sub
 End Class

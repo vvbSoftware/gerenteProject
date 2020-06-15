@@ -23,6 +23,7 @@ Partial Class FrmPrincipal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnIngresarMedico = New System.Windows.Forms.Button()
         Me.btnIngresar = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -41,6 +42,7 @@ Partial Class FrmPrincipal
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.btnIngresarMedico)
         Me.Panel1.Controls.Add(Me.btnIngresar)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
@@ -53,12 +55,24 @@ Partial Class FrmPrincipal
         Me.Panel1.Size = New System.Drawing.Size(222, 683)
         Me.Panel1.TabIndex = 0
         '
+        'btnIngresarMedico
+        '
+        Me.btnIngresarMedico.FlatAppearance.BorderSize = 0
+        Me.btnIngresarMedico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(85, Byte), Integer))
+        Me.btnIngresarMedico.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIngresarMedico.Location = New System.Drawing.Point(0, 238)
+        Me.btnIngresarMedico.Name = "btnIngresarMedico"
+        Me.btnIngresarMedico.Size = New System.Drawing.Size(219, 41)
+        Me.btnIngresarMedico.TabIndex = 300
+        Me.btnIngresarMedico.Text = "Medico"
+        Me.btnIngresarMedico.UseVisualStyleBackColor = True
+        '
         'btnIngresar
         '
         Me.btnIngresar.FlatAppearance.BorderSize = 0
         Me.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIngresar.Location = New System.Drawing.Point(0, 270)
+        Me.btnIngresar.Location = New System.Drawing.Point(0, 191)
         Me.btnIngresar.Name = "btnIngresar"
         Me.btnIngresar.Size = New System.Drawing.Size(222, 41)
         Me.btnIngresar.TabIndex = 300
@@ -70,7 +84,7 @@ Partial Class FrmPrincipal
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(0, 364)
+        Me.Button3.Location = New System.Drawing.Point(0, 332)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(222, 41)
         Me.Button3.TabIndex = 300
@@ -82,7 +96,7 @@ Partial Class FrmPrincipal
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(85, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(0, 317)
+        Me.Button2.Location = New System.Drawing.Point(0, 285)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(222, 41)
         Me.Button2.TabIndex = 300
@@ -190,4 +204,5 @@ Partial Class FrmPrincipal
     Friend WithEvents btnIngresar As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents btnIngresarMedico As Button
 End Class
