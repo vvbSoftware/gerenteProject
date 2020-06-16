@@ -43,7 +43,7 @@ Partial Class FrmEliminar
         Me.btnFiltrar.FlatAppearance.BorderSize = 0
         Me.btnFiltrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnFiltrar.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnFiltrar.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFiltrar.ForeColor = System.Drawing.Color.Silver
         Me.btnFiltrar.Location = New System.Drawing.Point(198, 296)
         Me.btnFiltrar.Name = "btnFiltrar"
@@ -56,12 +56,12 @@ Partial Class FrmEliminar
         '
         Me.cbFiltro.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.cbFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cbFiltro.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbFiltro.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbFiltro.ForeColor = System.Drawing.Color.Silver
         Me.cbFiltro.FormattingEnabled = True
         Me.cbFiltro.Location = New System.Drawing.Point(12, 305)
         Me.cbFiltro.Name = "cbFiltro"
-        Me.cbFiltro.Size = New System.Drawing.Size(180, 24)
+        Me.cbFiltro.Size = New System.Drawing.Size(180, 25)
         Me.cbFiltro.TabIndex = 1
         '
         'Label2
@@ -100,11 +100,11 @@ Partial Class FrmEliminar
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.Silver
         Me.TextBox1.Location = New System.Drawing.Point(12, 380)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(429, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(429, 22)
         Me.TextBox1.TabIndex = 3
         '
         'Label3
@@ -124,7 +124,7 @@ Partial Class FrmEliminar
         Me.btnEliminar.FlatAppearance.BorderSize = 0
         Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminar.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEliminar.ForeColor = System.Drawing.Color.Silver
         Me.btnEliminar.Location = New System.Drawing.Point(452, 370)
         Me.btnEliminar.Name = "btnEliminar"

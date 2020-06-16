@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmIngresar
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FrmIngresar
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox12 = New System.Windows.Forms.ComboBox()
@@ -126,9 +126,9 @@ Partial Class FrmIngresar
         Me.btnIngresarSintoma.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnIngresarSintoma.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIngresarSintoma.ForeColor = System.Drawing.Color.Silver
-        Me.btnIngresarSintoma.Location = New System.Drawing.Point(433, 124)
+        Me.btnIngresarSintoma.Location = New System.Drawing.Point(443, 122)
         Me.btnIngresarSintoma.Name = "btnIngresarSintoma"
-        Me.btnIngresarSintoma.Size = New System.Drawing.Size(200, 40)
+        Me.btnIngresarSintoma.Size = New System.Drawing.Size(190, 40)
         Me.btnIngresarSintoma.TabIndex = 2
         Me.btnIngresarSintoma.Text = "Ingresar"
         Me.btnIngresarSintoma.UseVisualStyleBackColor = False
@@ -151,9 +151,9 @@ Partial Class FrmIngresar
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Silver
-        Me.Label3.Location = New System.Drawing.Point(12, 236)
+        Me.Label3.Location = New System.Drawing.Point(7, 239)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(288, 24)
         Me.Label3.TabIndex = 3
@@ -161,19 +161,21 @@ Partial Class FrmIngresar
         '
         'TextBox1
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(12, 263)
+        Me.TextBox1.ForeColor = System.Drawing.Color.Silver
+        Me.TextBox1.Location = New System.Drawing.Point(12, 266)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(415, 21)
         Me.TextBox1.TabIndex = 3
+        Me.TextBox1.Text = "Nombre"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Silver
-        Me.Label4.Location = New System.Drawing.Point(12, 108)
+        Me.Label4.Location = New System.Drawing.Point(8, 109)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(222, 24)
         Me.Label4.TabIndex = 3
@@ -181,12 +183,14 @@ Partial Class FrmIngresar
         '
         'TextBox2
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.TextBox2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(12, 135)
+        Me.TextBox2.ForeColor = System.Drawing.Color.Silver
+        Me.TextBox2.Location = New System.Drawing.Point(13, 136)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(415, 21)
         Me.TextBox2.TabIndex = 1
+        Me.TextBox2.Text = "Nombre"
         '
         'Label5
         '

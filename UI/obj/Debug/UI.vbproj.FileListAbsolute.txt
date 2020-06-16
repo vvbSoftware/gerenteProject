@@ -69,7 +69,6 @@ C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\bin\Debug\Microsoft.
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.vbprojAssemblyReference.cache
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmIngresar.resources
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmPrincipal.resources
-C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.LogIn.resources
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.Resources.resources
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.vbproj.GenerateResource.cache
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.vbproj.CoreCompileInputs.cache
@@ -80,3 +79,7 @@ C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.pdb
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmMedico.resources
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmModificar.resources
 C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmEliminar.resources
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\obj\Debug\UI.FrmLogIn.resources
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\bin\Debug\CircularProgressBar.dll
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\bin\Debug\WinFormAnimation.dll
+C:\Users\GaaraXz\source\repos\vvbSoftware\gerenteProject\UI\bin\Debug\CircularProgressBar.xml

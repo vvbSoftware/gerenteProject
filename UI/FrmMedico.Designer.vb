@@ -83,9 +83,12 @@ Partial Class FrmMedico
         '
         'txtCedula
         '
+        Me.txtCedula.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtCedula.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCedula.ForeColor = System.Drawing.Color.Silver
         Me.txtCedula.Location = New System.Drawing.Point(12, 71)
         Me.txtCedula.Name = "txtCedula"
-        Me.txtCedula.Size = New System.Drawing.Size(180, 20)
+        Me.txtCedula.Size = New System.Drawing.Size(180, 22)
         Me.txtCedula.TabIndex = 1
         '
         'btnIngresar
@@ -94,6 +97,7 @@ Partial Class FrmMedico
         Me.btnIngresar.FlatAppearance.BorderSize = 0
         Me.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(55, Byte), Integer))
         Me.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIngresar.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIngresar.ForeColor = System.Drawing.Color.Silver
         Me.btnIngresar.Location = New System.Drawing.Point(429, 395)
         Me.btnIngresar.Name = "btnIngresar"
@@ -115,9 +119,12 @@ Partial Class FrmMedico
         '
         'txtEspecialidad
         '
+        Me.txtEspecialidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtEspecialidad.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEspecialidad.ForeColor = System.Drawing.Color.Silver
         Me.txtEspecialidad.Location = New System.Drawing.Point(12, 116)
         Me.txtEspecialidad.Name = "txtEspecialidad"
-        Me.txtEspecialidad.Size = New System.Drawing.Size(180, 20)
+        Me.txtEspecialidad.Size = New System.Drawing.Size(180, 22)
         Me.txtEspecialidad.TabIndex = 1
         '
         'txtPriNombre
@@ -133,9 +140,12 @@ Partial Class FrmMedico
         '
         'TextBox3
         '
+        Me.TextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.TextBox3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.Silver
         Me.TextBox3.Location = New System.Drawing.Point(217, 71)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(180, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(180, 22)
         Me.TextBox3.TabIndex = 1
         '
         'txtSegNombre
@@ -151,9 +161,12 @@ Partial Class FrmMedico
         '
         'TextBox4
         '
+        Me.TextBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.TextBox4.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.Color.Silver
         Me.TextBox4.Location = New System.Drawing.Point(217, 116)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(180, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(180, 22)
         Me.TextBox4.TabIndex = 1
         '
         'txtPriApellido
@@ -169,9 +182,12 @@ Partial Class FrmMedico
         '
         'TextBox5
         '
+        Me.TextBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.TextBox5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.ForeColor = System.Drawing.Color.Silver
         Me.TextBox5.Location = New System.Drawing.Point(429, 71)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(180, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(180, 22)
         Me.TextBox5.TabIndex = 1
         '
         'txtSegApellido
@@ -187,9 +203,12 @@ Partial Class FrmMedico
         '
         'TextBox6
         '
+        Me.TextBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.TextBox6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.ForeColor = System.Drawing.Color.Silver
         Me.TextBox6.Location = New System.Drawing.Point(429, 116)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(180, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(180, 22)
         Me.TextBox6.TabIndex = 1
         '
         'Label7
@@ -205,9 +224,12 @@ Partial Class FrmMedico
         '
         'txtHoraEntradaLunes
         '
+        Me.txtHoraEntradaLunes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaLunes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaLunes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaLunes.Location = New System.Drawing.Point(152, 290)
         Me.txtHoraEntradaLunes.Name = "txtHoraEntradaLunes"
-        Me.txtHoraEntradaLunes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaLunes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaLunes.TabIndex = 1
         '
         'Label8
@@ -224,11 +246,14 @@ Partial Class FrmMedico
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox1.Location = New System.Drawing.Point(170, 270)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 4
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -277,11 +302,14 @@ Partial Class FrmMedico
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox2.Location = New System.Drawing.Point(241, 270)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox2.TabIndex = 4
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CheckBox2.UseVisualStyleBackColor = False
         '
         'Label13
         '
@@ -297,11 +325,14 @@ Partial Class FrmMedico
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox3.Location = New System.Drawing.Point(308, 270)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox3.TabIndex = 4
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'Label14
         '
@@ -317,11 +348,14 @@ Partial Class FrmMedico
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox4.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox4.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox4.Location = New System.Drawing.Point(382, 270)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox4.TabIndex = 4
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CheckBox4.UseVisualStyleBackColor = False
         '
         'Label15
         '
@@ -337,11 +371,14 @@ Partial Class FrmMedico
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox5.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox5.Location = New System.Drawing.Point(443, 269)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox5.TabIndex = 4
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.CheckBox5.UseVisualStyleBackColor = False
         '
         'Label16
         '
@@ -357,11 +394,14 @@ Partial Class FrmMedico
         'CheckBox6
         '
         Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox6.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox6.Location = New System.Drawing.Point(510, 269)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox6.TabIndex = 4
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.CheckBox6.UseVisualStyleBackColor = False
         '
         'Label17
         '
@@ -377,108 +417,153 @@ Partial Class FrmMedico
         'CheckBox7
         '
         Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.CheckBox7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox7.ForeColor = System.Drawing.Color.Silver
         Me.CheckBox7.Location = New System.Drawing.Point(587, 270)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox7.TabIndex = 4
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CheckBox7.UseVisualStyleBackColor = False
         '
         'txtHoraSalidaLunes
         '
+        Me.txtHoraSalidaLunes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaLunes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaLunes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaLunes.Location = New System.Drawing.Point(152, 332)
         Me.txtHoraSalidaLunes.Name = "txtHoraSalidaLunes"
-        Me.txtHoraSalidaLunes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaLunes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaLunes.TabIndex = 1
         '
         'txtHoraEntradaMartes
         '
+        Me.txtHoraEntradaMartes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaMartes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaMartes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaMartes.Location = New System.Drawing.Point(223, 290)
         Me.txtHoraEntradaMartes.Name = "txtHoraEntradaMartes"
-        Me.txtHoraEntradaMartes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaMartes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaMartes.TabIndex = 1
         '
         'txtHoraSalidaMartes
         '
+        Me.txtHoraSalidaMartes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaMartes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaMartes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaMartes.Location = New System.Drawing.Point(223, 332)
         Me.txtHoraSalidaMartes.Name = "txtHoraSalidaMartes"
-        Me.txtHoraSalidaMartes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaMartes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaMartes.TabIndex = 1
         '
         'txtHoraEntradaMiercoles
         '
+        Me.txtHoraEntradaMiercoles.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaMiercoles.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaMiercoles.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaMiercoles.Location = New System.Drawing.Point(290, 290)
         Me.txtHoraEntradaMiercoles.Name = "txtHoraEntradaMiercoles"
-        Me.txtHoraEntradaMiercoles.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaMiercoles.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaMiercoles.TabIndex = 1
         '
         'txtHoraSalidaMiercoles
         '
+        Me.txtHoraSalidaMiercoles.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaMiercoles.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaMiercoles.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaMiercoles.Location = New System.Drawing.Point(290, 332)
         Me.txtHoraSalidaMiercoles.Name = "txtHoraSalidaMiercoles"
-        Me.txtHoraSalidaMiercoles.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaMiercoles.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaMiercoles.TabIndex = 1
         '
         'txtHoraEntradaJueves
         '
+        Me.txtHoraEntradaJueves.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaJueves.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaJueves.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaJueves.Location = New System.Drawing.Point(360, 290)
         Me.txtHoraEntradaJueves.Name = "txtHoraEntradaJueves"
-        Me.txtHoraEntradaJueves.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaJueves.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaJueves.TabIndex = 1
         '
         'txtHoraEntradaViernes
         '
+        Me.txtHoraEntradaViernes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaViernes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaViernes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaViernes.Location = New System.Drawing.Point(426, 289)
         Me.txtHoraEntradaViernes.Name = "txtHoraEntradaViernes"
-        Me.txtHoraEntradaViernes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaViernes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaViernes.TabIndex = 1
         '
         'txtHoraEntradaSabado
         '
+        Me.txtHoraEntradaSabado.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaSabado.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaSabado.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaSabado.Location = New System.Drawing.Point(495, 289)
         Me.txtHoraEntradaSabado.Name = "txtHoraEntradaSabado"
-        Me.txtHoraEntradaSabado.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaSabado.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaSabado.TabIndex = 1
         '
         'txtHoraSalidaJueves
         '
+        Me.txtHoraSalidaJueves.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaJueves.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaJueves.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaJueves.Location = New System.Drawing.Point(360, 332)
         Me.txtHoraSalidaJueves.Name = "txtHoraSalidaJueves"
-        Me.txtHoraSalidaJueves.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaJueves.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaJueves.TabIndex = 1
         '
         'txtHoraSalidaViernes
         '
+        Me.txtHoraSalidaViernes.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaViernes.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaViernes.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaViernes.Location = New System.Drawing.Point(426, 331)
         Me.txtHoraSalidaViernes.Name = "txtHoraSalidaViernes"
-        Me.txtHoraSalidaViernes.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaViernes.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaViernes.TabIndex = 1
         '
         'txtHoraSalidaSabado
         '
+        Me.txtHoraSalidaSabado.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaSabado.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaSabado.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaSabado.Location = New System.Drawing.Point(495, 331)
         Me.txtHoraSalidaSabado.Name = "txtHoraSalidaSabado"
-        Me.txtHoraSalidaSabado.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaSabado.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaSabado.TabIndex = 1
         '
         'txtHoraEntradaDomingo
         '
+        Me.txtHoraEntradaDomingo.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraEntradaDomingo.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraEntradaDomingo.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraEntradaDomingo.Location = New System.Drawing.Point(571, 290)
         Me.txtHoraEntradaDomingo.Name = "txtHoraEntradaDomingo"
-        Me.txtHoraEntradaDomingo.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraEntradaDomingo.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraEntradaDomingo.TabIndex = 1
         '
         'txtHoraSalidaDomingo
         '
+        Me.txtHoraSalidaDomingo.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtHoraSalidaDomingo.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHoraSalidaDomingo.ForeColor = System.Drawing.Color.Silver
         Me.txtHoraSalidaDomingo.Location = New System.Drawing.Point(571, 332)
         Me.txtHoraSalidaDomingo.Name = "txtHoraSalidaDomingo"
-        Me.txtHoraSalidaDomingo.Size = New System.Drawing.Size(49, 20)
+        Me.txtHoraSalidaDomingo.Size = New System.Drawing.Size(49, 22)
         Me.txtHoraSalidaDomingo.TabIndex = 1
         '
         'txtLugarTrabajo
         '
+        Me.txtLugarTrabajo.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtLugarTrabajo.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLugarTrabajo.ForeColor = System.Drawing.Color.Silver
         Me.txtLugarTrabajo.Location = New System.Drawing.Point(12, 166)
         Me.txtLugarTrabajo.Name = "txtLugarTrabajo"
-        Me.txtLugarTrabajo.Size = New System.Drawing.Size(180, 20)
+        Me.txtLugarTrabajo.Size = New System.Drawing.Size(180, 22)
         Me.txtLugarTrabajo.TabIndex = 1
         '
         'FrmMedico
