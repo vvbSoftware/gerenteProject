@@ -176,10 +176,10 @@
     <None Include="Resources\Close_Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LogoPrincipal Segundo.png" />
+    <None Include="Resources\Minimize_Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Minimize_Icon.png" />
+    <None Include="Resources\isotipoProyectowhite.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
