@@ -23,25 +23,24 @@ Partial Class FrmIngresar
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox12 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox17 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma1 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma7 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma4 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma2 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma5 = New System.Windows.Forms.ComboBox()
         Me.btnIngresarSintoma = New System.Windows.Forms.Button()
         Me.btnIngresarEnfermedad = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtNombreEnfermedad = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtNombreSintoma = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma8 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma3 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma6 = New System.Windows.Forms.ComboBox()
+        Me.cbSintoma9 = New System.Windows.Forms.ComboBox()
+        Me.cbRiesgo = New System.Windows.Forms.ComboBox()
+        Me.txtDescripcion = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -55,68 +54,67 @@ Partial Class FrmIngresar
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Ingresar sintomas/enfermadad"
         '
-        'ComboBox12
+        'cbSintoma1
         '
-        Me.ComboBox12.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox12.FormattingEnabled = True
-        Me.ComboBox12.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9"})
-        Me.ComboBox12.Location = New System.Drawing.Point(15, 319)
-        Me.ComboBox12.Name = "ComboBox12"
-        Me.ComboBox12.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox12.TabIndex = 4
-        Me.ComboBox12.TabStop = False
+        Me.cbSintoma1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma1.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma1.FormattingEnabled = True
+        Me.cbSintoma1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9"})
+        Me.cbSintoma1.Location = New System.Drawing.Point(15, 360)
+        Me.cbSintoma1.Name = "cbSintoma1"
+        Me.cbSintoma1.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma1.TabIndex = 4
+        Me.cbSintoma1.TabStop = False
         '
-        'ComboBox13
+        'cbSintoma7
         '
-        Me.ComboBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox13.FormattingEnabled = True
-        Me.ComboBox13.Location = New System.Drawing.Point(15, 376)
-        Me.ComboBox13.Name = "ComboBox13"
-        Me.ComboBox13.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox13.TabIndex = 8
+        Me.cbSintoma7.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma7.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma7.FormattingEnabled = True
+        Me.cbSintoma7.Location = New System.Drawing.Point(15, 417)
+        Me.cbSintoma7.Name = "cbSintoma7"
+        Me.cbSintoma7.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma7.TabIndex = 8
         '
-        'ComboBox14
+        'cbSintoma4
         '
-        Me.ComboBox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox14.FormattingEnabled = True
-        Me.ComboBox14.Location = New System.Drawing.Point(15, 349)
-        Me.ComboBox14.Name = "ComboBox14"
-        Me.ComboBox14.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox14.TabIndex = 6
+        Me.cbSintoma4.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma4.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma4.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma4.FormattingEnabled = True
+        Me.cbSintoma4.Location = New System.Drawing.Point(15, 390)
+        Me.cbSintoma4.Name = "cbSintoma4"
+        Me.cbSintoma4.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma4.TabIndex = 6
         '
-        'ComboBox15
+        'cbSintoma2
         '
-        Me.ComboBox15.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox15.FormattingEnabled = True
-        Me.ComboBox15.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9"})
-        Me.ComboBox15.Location = New System.Drawing.Point(15, 407)
-        Me.ComboBox15.Name = "ComboBox15"
-        Me.ComboBox15.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox15.TabIndex = 10
+        Me.cbSintoma2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma2.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma2.FormattingEnabled = True
+        Me.cbSintoma2.Location = New System.Drawing.Point(227, 360)
+        Me.cbSintoma2.Name = "cbSintoma2"
+        Me.cbSintoma2.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma2.TabIndex = 5
         '
-        'ComboBox17
+        'cbSintoma5
         '
-        Me.ComboBox17.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox17.FormattingEnabled = True
-        Me.ComboBox17.Location = New System.Drawing.Point(227, 319)
-        Me.ComboBox17.Name = "ComboBox17"
-        Me.ComboBox17.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox17.TabIndex = 5
-        '
-        'ComboBox18
-        '
-        Me.ComboBox18.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox18.FormattingEnabled = True
-        Me.ComboBox18.Location = New System.Drawing.Point(227, 349)
-        Me.ComboBox18.Name = "ComboBox18"
-        Me.ComboBox18.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox18.TabIndex = 7
+        Me.cbSintoma5.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma5.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma5.FormattingEnabled = True
+        Me.cbSintoma5.Location = New System.Drawing.Point(227, 390)
+        Me.cbSintoma5.Name = "cbSintoma5"
+        Me.cbSintoma5.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma5.TabIndex = 7
         '
         'btnIngresarSintoma
         '
@@ -126,7 +124,7 @@ Partial Class FrmIngresar
         Me.btnIngresarSintoma.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnIngresarSintoma.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIngresarSintoma.ForeColor = System.Drawing.Color.Silver
-        Me.btnIngresarSintoma.Location = New System.Drawing.Point(443, 122)
+        Me.btnIngresarSintoma.Location = New System.Drawing.Point(443, 126)
         Me.btnIngresarSintoma.Name = "btnIngresarSintoma"
         Me.btnIngresarSintoma.Size = New System.Drawing.Size(190, 40)
         Me.btnIngresarSintoma.TabIndex = 2
@@ -141,7 +139,7 @@ Partial Class FrmIngresar
         Me.btnIngresarEnfermedad.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnIngresarEnfermedad.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIngresarEnfermedad.ForeColor = System.Drawing.Color.Silver
-        Me.btnIngresarEnfermedad.Location = New System.Drawing.Point(433, 466)
+        Me.btnIngresarEnfermedad.Location = New System.Drawing.Point(433, 480)
         Me.btnIngresarEnfermedad.Name = "btnIngresarEnfermedad"
         Me.btnIngresarEnfermedad.Size = New System.Drawing.Size(200, 40)
         Me.btnIngresarEnfermedad.TabIndex = 12
@@ -159,16 +157,16 @@ Partial Class FrmIngresar
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Nombre de la Enfermedad"
         '
-        'TextBox1
+        'txtNombreEnfermedad
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.Silver
-        Me.TextBox1.Location = New System.Drawing.Point(12, 266)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(415, 21)
-        Me.TextBox1.TabIndex = 3
-        Me.TextBox1.Text = "Nombre"
+        Me.txtNombreEnfermedad.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtNombreEnfermedad.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombreEnfermedad.ForeColor = System.Drawing.Color.Silver
+        Me.txtNombreEnfermedad.Location = New System.Drawing.Point(15, 266)
+        Me.txtNombreEnfermedad.Name = "txtNombreEnfermedad"
+        Me.txtNombreEnfermedad.Size = New System.Drawing.Size(415, 22)
+        Me.txtNombreEnfermedad.TabIndex = 3
+        Me.txtNombreEnfermedad.Text = "Nombre"
         '
         'Label4
         '
@@ -181,16 +179,16 @@ Partial Class FrmIngresar
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Nombre del Sintoma"
         '
-        'TextBox2
+        'txtNombreSintoma
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.TextBox2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.Silver
-        Me.TextBox2.Location = New System.Drawing.Point(13, 136)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(415, 21)
-        Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Text = "Nombre"
+        Me.txtNombreSintoma.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtNombreSintoma.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombreSintoma.ForeColor = System.Drawing.Color.Silver
+        Me.txtNombreSintoma.Location = New System.Drawing.Point(15, 136)
+        Me.txtNombreSintoma.Name = "txtNombreSintoma"
+        Me.txtNombreSintoma.Size = New System.Drawing.Size(415, 22)
+        Me.txtNombreSintoma.TabIndex = 1
+        Me.txtNombreSintoma.Text = "Nombre"
         '
         'Label5
         '
@@ -203,65 +201,80 @@ Partial Class FrmIngresar
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "Sintomas relacionados"
         '
-        'ComboBox1
+        'cbSintoma8
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(227, 376)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox1.TabIndex = 9
+        Me.cbSintoma8.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma8.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma8.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma8.FormattingEnabled = True
+        Me.cbSintoma8.Location = New System.Drawing.Point(227, 417)
+        Me.cbSintoma8.Name = "cbSintoma8"
+        Me.cbSintoma8.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma8.TabIndex = 9
         '
-        'ComboBox2
+        'cbSintoma3
         '
-        Me.ComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(227, 407)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox2.TabIndex = 11
+        Me.cbSintoma3.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma3.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma3.FormattingEnabled = True
+        Me.cbSintoma3.Location = New System.Drawing.Point(433, 360)
+        Me.cbSintoma3.Name = "cbSintoma3"
+        Me.cbSintoma3.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma3.TabIndex = 5
         '
-        'ComboBox3
+        'cbSintoma6
         '
-        Me.ComboBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(433, 319)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox3.TabIndex = 5
+        Me.cbSintoma6.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma6.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma6.FormattingEnabled = True
+        Me.cbSintoma6.Location = New System.Drawing.Point(433, 390)
+        Me.cbSintoma6.Name = "cbSintoma6"
+        Me.cbSintoma6.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma6.TabIndex = 7
         '
-        'ComboBox4
+        'cbSintoma9
         '
-        Me.ComboBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(433, 349)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox4.TabIndex = 7
+        Me.cbSintoma9.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbSintoma9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbSintoma9.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbSintoma9.ForeColor = System.Drawing.Color.Silver
+        Me.cbSintoma9.FormattingEnabled = True
+        Me.cbSintoma9.Location = New System.Drawing.Point(433, 417)
+        Me.cbSintoma9.Name = "cbSintoma9"
+        Me.cbSintoma9.Size = New System.Drawing.Size(200, 25)
+        Me.cbSintoma9.TabIndex = 9
         '
-        'ComboBox5
+        'cbRiesgo
         '
-        Me.ComboBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(433, 376)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox5.TabIndex = 9
+        Me.cbRiesgo.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.cbRiesgo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cbRiesgo.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbRiesgo.ForeColor = System.Drawing.Color.Silver
+        Me.cbRiesgo.FormattingEnabled = True
+        Me.cbRiesgo.Items.AddRange(New Object() {"azul", "verde", "amarillo", "naranja"})
+        Me.cbRiesgo.Location = New System.Drawing.Point(15, 314)
+        Me.cbRiesgo.Name = "cbRiesgo"
+        Me.cbRiesgo.Size = New System.Drawing.Size(200, 25)
+        Me.cbRiesgo.TabIndex = 4
+        Me.cbRiesgo.TabStop = False
+        Me.cbRiesgo.Text = "Riesgo"
         '
-        'ComboBox6
+        'txtDescripcion
         '
-        Me.ComboBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
-        Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(433, 407)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox6.TabIndex = 11
+        Me.txtDescripcion.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.txtDescripcion.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDescripcion.ForeColor = System.Drawing.Color.Silver
+        Me.txtDescripcion.Location = New System.Drawing.Point(227, 294)
+        Me.txtDescripcion.Multiline = True
+        Me.txtDescripcion.Name = "txtDescripcion"
+        Me.txtDescripcion.Size = New System.Drawing.Size(406, 60)
+        Me.txtDescripcion.TabIndex = 3
+        Me.txtDescripcion.Text = "Descripcion"
         '
         'FrmIngresar
         '
@@ -269,25 +282,24 @@ Partial Class FrmIngresar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(645, 570)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtNombreSintoma)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtDescripcion)
+        Me.Controls.Add(Me.txtNombreEnfermedad)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnIngresarEnfermedad)
         Me.Controls.Add(Me.btnIngresarSintoma)
-        Me.Controls.Add(Me.ComboBox6)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox18)
-        Me.Controls.Add(Me.ComboBox17)
-        Me.Controls.Add(Me.ComboBox15)
-        Me.Controls.Add(Me.ComboBox14)
-        Me.Controls.Add(Me.ComboBox13)
-        Me.Controls.Add(Me.ComboBox12)
+        Me.Controls.Add(Me.cbSintoma9)
+        Me.Controls.Add(Me.cbSintoma8)
+        Me.Controls.Add(Me.cbSintoma6)
+        Me.Controls.Add(Me.cbSintoma3)
+        Me.Controls.Add(Me.cbSintoma5)
+        Me.Controls.Add(Me.cbSintoma2)
+        Me.Controls.Add(Me.cbSintoma4)
+        Me.Controls.Add(Me.cbSintoma7)
+        Me.Controls.Add(Me.cbRiesgo)
+        Me.Controls.Add(Me.cbSintoma1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FrmIngresar"
@@ -298,23 +310,22 @@ Partial Class FrmIngresar
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents ComboBox12 As ComboBox
-    Friend WithEvents ComboBox13 As ComboBox
-    Friend WithEvents ComboBox14 As ComboBox
-    Friend WithEvents ComboBox15 As ComboBox
-    Friend WithEvents ComboBox17 As ComboBox
-    Friend WithEvents ComboBox18 As ComboBox
+    Friend WithEvents cbSintoma1 As ComboBox
+    Friend WithEvents cbSintoma7 As ComboBox
+    Friend WithEvents cbSintoma4 As ComboBox
+    Friend WithEvents cbSintoma2 As ComboBox
+    Friend WithEvents cbSintoma5 As ComboBox
     Friend WithEvents btnIngresarSintoma As Button
     Friend WithEvents btnIngresarEnfermedad As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtNombreEnfermedad As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtNombreSintoma As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents cbSintoma8 As ComboBox
+    Friend WithEvents cbSintoma3 As ComboBox
+    Friend WithEvents cbSintoma6 As ComboBox
+    Friend WithEvents cbSintoma9 As ComboBox
+    Friend WithEvents cbRiesgo As ComboBox
+    Friend WithEvents txtDescripcion As TextBox
 End Class

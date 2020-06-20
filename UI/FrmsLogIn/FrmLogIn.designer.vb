@@ -24,6 +24,8 @@ Partial Class FrmLogIn
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.topPanel = New System.Windows.Forms.Panel()
+        Me.btnClose = New System.Windows.Forms.PictureBox()
+        Me.btnMinimize = New System.Windows.Forms.PictureBox()
         Me.txtUser = New System.Windows.Forms.TextBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
@@ -33,18 +35,14 @@ Partial Class FrmLogIn
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.llbForgotPassEs = New System.Windows.Forms.LinkLabel()
-        Me.llbCrearUsuarioEs = New System.Windows.Forms.LinkLabel()
         Me.llbForgotPassIn = New System.Windows.Forms.LinkLabel()
-        Me.llbCrearUsuarioIn = New System.Windows.Forms.LinkLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btnChangeLanguage = New System.Windows.Forms.PictureBox()
-        Me.btnClose = New System.Windows.Forms.PictureBox()
-        Me.btnMinimize = New System.Windows.Forms.PictureBox()
         Me.topPanel.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMinimize, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -69,6 +67,30 @@ Partial Class FrmLogIn
         Me.topPanel.Name = "topPanel"
         Me.topPanel.Size = New System.Drawing.Size(430, 24)
         Me.topPanel.TabIndex = 1
+        '
+        'btnClose
+        '
+        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnClose.Image = Global.UI.My.Resources.Resources.Close_Icon
+        Me.btnClose.Location = New System.Drawing.Point(408, 4)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(16, 16)
+        Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.btnClose.TabIndex = 1
+        Me.btnClose.TabStop = False
+        '
+        'btnMinimize
+        '
+        Me.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMinimize.Image = Global.UI.My.Resources.Resources.Minimize_Icon
+        Me.btnMinimize.Location = New System.Drawing.Point(386, 4)
+        Me.btnMinimize.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnMinimize.Name = "btnMinimize"
+        Me.btnMinimize.Size = New System.Drawing.Size(16, 16)
+        Me.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.btnMinimize.TabIndex = 0
+        Me.btnMinimize.TabStop = False
         '
         'txtUser
         '
@@ -172,18 +194,6 @@ Partial Class FrmLogIn
         Me.llbForgotPassEs.TabStop = True
         Me.llbForgotPassEs.Text = "Olvidado su contraseña?"
         '
-        'llbCrearUsuarioEs
-        '
-        Me.llbCrearUsuarioEs.AutoSize = True
-        Me.llbCrearUsuarioEs.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.llbCrearUsuarioEs.LinkColor = System.Drawing.Color.Silver
-        Me.llbCrearUsuarioEs.Location = New System.Drawing.Point(152, 566)
-        Me.llbCrearUsuarioEs.Name = "llbCrearUsuarioEs"
-        Me.llbCrearUsuarioEs.Size = New System.Drawing.Size(113, 21)
-        Me.llbCrearUsuarioEs.TabIndex = 0
-        Me.llbCrearUsuarioEs.TabStop = True
-        Me.llbCrearUsuarioEs.Text = "Crear usuario"
-        '
         'llbForgotPassIn
         '
         Me.llbForgotPassIn.AutoSize = True
@@ -197,59 +207,25 @@ Partial Class FrmLogIn
         Me.llbForgotPassIn.Text = "Forgot your password?"
         Me.llbForgotPassIn.Visible = False
         '
-        'llbCrearUsuarioIn
-        '
-        Me.llbCrearUsuarioIn.AutoSize = True
-        Me.llbCrearUsuarioIn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.llbCrearUsuarioIn.LinkColor = System.Drawing.Color.Silver
-        Me.llbCrearUsuarioIn.Location = New System.Drawing.Point(163, 566)
-        Me.llbCrearUsuarioIn.Name = "llbCrearUsuarioIn"
-        Me.llbCrearUsuarioIn.Size = New System.Drawing.Size(102, 21)
-        Me.llbCrearUsuarioIn.TabIndex = 0
-        Me.llbCrearUsuarioIn.TabStop = True
-        Me.llbCrearUsuarioIn.Text = "Create User"
-        Me.llbCrearUsuarioIn.Visible = False
-        '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(136, 29)
+        Me.PictureBox2.Image = Global.UI.My.Resources.Resources.isotipoProyectowhite
+        Me.PictureBox2.Location = New System.Drawing.Point(125, 29)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(170, 170)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox2.Size = New System.Drawing.Size(181, 171)
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
         '
         'btnChangeLanguage
         '
         Me.btnChangeLanguage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnChangeLanguage.Image = Global.UI.My.Resources.Resources.bitmap1
         Me.btnChangeLanguage.Location = New System.Drawing.Point(3, 29)
         Me.btnChangeLanguage.Name = "btnChangeLanguage"
         Me.btnChangeLanguage.Size = New System.Drawing.Size(41, 21)
         Me.btnChangeLanguage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnChangeLanguage.TabIndex = 8
         Me.btnChangeLanguage.TabStop = False
-        '
-        'btnClose
-        '
-        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnClose.Location = New System.Drawing.Point(408, 4)
-        Me.btnClose.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(16, 16)
-        Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.btnClose.TabIndex = 1
-        Me.btnClose.TabStop = False
-        '
-        'btnMinimize
-        '
-        Me.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnMinimize.Location = New System.Drawing.Point(386, 4)
-        Me.btnMinimize.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnMinimize.Name = "btnMinimize"
-        Me.btnMinimize.Size = New System.Drawing.Size(16, 16)
-        Me.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.btnMinimize.TabIndex = 0
-        Me.btnMinimize.TabStop = False
         '
         'FrmLogIn
         '
@@ -258,9 +234,7 @@ Partial Class FrmLogIn
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(63, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(430, 600)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.llbCrearUsuarioIn)
         Me.Controls.Add(Me.llbForgotPassIn)
-        Me.Controls.Add(Me.llbCrearUsuarioEs)
         Me.Controls.Add(Me.btnChangeLanguage)
         Me.Controls.Add(Me.llbForgotPassEs)
         Me.Controls.Add(Me.Panel1)
@@ -278,10 +252,10 @@ Partial Class FrmLogIn
         Me.Text = "Form1"
         Me.topPanel.ResumeLayout(False)
         Me.topPanel.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnMinimize, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -301,8 +275,6 @@ Partial Class FrmLogIn
     Friend WithEvents Panel1 As Panel
     Friend WithEvents llbForgotPassEs As LinkLabel
     Friend WithEvents btnChangeLanguage As PictureBox
-    Friend WithEvents llbCrearUsuarioEs As LinkLabel
     Friend WithEvents llbForgotPassIn As LinkLabel
-    Friend WithEvents llbCrearUsuarioIn As LinkLabel
     Friend WithEvents PictureBox2 As PictureBox
 End Class

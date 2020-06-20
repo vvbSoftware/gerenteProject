@@ -21,27 +21,23 @@ Public Class FrmLogIn
 
     End Sub
 
-    Private Sub llbCrearUsuario_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llbCrearUsuarioEs.LinkClicked, llbCrearUsuarioIn.LinkClicked
+    Private Sub llbCrearUsuario_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
 
     End Sub
     Private Sub btnChangeLanguage_Click(sender As Object, e As EventArgs) Handles btnChangeLanguage.Click
         If txtUser.Text = "USER" Then
             llbForgotPassIn.Visible = False
-            llbCrearUsuarioIn.Visible = False
             txtUser.Text = "USUARIO"
             txtPass.Text = "CONTRASEÑA"
             btnLogin.Text = "INICIAR"
             llbForgotPassEs.Visible = True
-            llbCrearUsuarioEs.Visible = True
             _languageState = "español"
         ElseIf txtUser.Text = "USUARIO" Then
             llbForgotPassEs.Visible = False
-            llbCrearUsuarioEs.Visible = False
             txtUser.Text = "USER"
             txtPass.Text = "PASSWORD"
             btnLogin.Text = "LOGIN"
             llbForgotPassIn.Visible = True
-            llbCrearUsuarioIn.Visible = True
             _languageState = "ingles"
         End If
     End Sub
