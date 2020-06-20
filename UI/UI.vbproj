@@ -154,6 +154,7 @@
     <EmbeddedResource Include="My Project\Resources.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -170,16 +171,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bitmap1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Close_Icon.png" />
+    <ProjectReference Include="..\Logic\Logic.vbproj">
+      <Project>{6a6e8834-add9-4ba5-bb1e-cc0ba9f8af5c}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Minimize_Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\isotipoProyectowhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitmap1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
