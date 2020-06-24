@@ -1,4 +1,5 @@
 ﻿Imports System.Runtime.InteropServices
+Imports Logic
 Public Class FrmLogIn
     ' Las letras In y Es al final de los labels significan Ingles y Español
     Private _languageState As String
@@ -13,17 +14,33 @@ Public Class FrmLogIn
         Me.WindowState = FormWindowState.Minimized
     End Sub
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        '...
-        Dim form As New FrmPrincipal
-        form.ShowDialog()
+        Dim gerente As New Gerente(txtUser.Text, txtPass.Text)
+        Dim validLogin As Boolean = gerente.ComprobarLogin(gerente)
+
+        If validLogin = True Then
+            Dim form As New FrmPrincipal
+            form.Show()
+            AddHandler form.FormClosed, AddressOf Me.Logout
+            Me.Hide()
+        Else
+            ErrorProvider1.SetError(Me.txtUser, "Nombre de usuario o contraseña INCORRECTOS.")
+            'MessageBox.Show("Nombre de usuario o contraseña INCORRECTOS." + vbNewLine + "Por favor intente de nuevo.")
+            txtPass.Clear()
+            txtPass.Focus()
+        End If
+
     End Sub
+    Private Sub Logout(sender As Object, e As FormClosedEventArgs)
+        txtUser.Clear()
+        txtPass.Clear()
+        Me.Show()
+        txtUser.Focus()
+    End Sub
+
     Private Sub llbForgotPass_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llbForgotPassIn.LinkClicked, llbForgotPassEs.LinkClicked
 
     End Sub
 
-    Private Sub llbCrearUsuario_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
     Private Sub btnChangeLanguage_Click(sender As Object, e As EventArgs) Handles btnChangeLanguage.Click
         If txtUser.Text = "USER" Then
             llbForgotPassIn.Visible = False

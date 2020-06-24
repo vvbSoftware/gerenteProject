@@ -1,4 +1,5 @@
-﻿Module Module1
+﻿Imports Logic
+Module Module1
     Public Sub BotonRedondeado(btn As Button)
         Dim buttonPath As Drawing2D.GraphicsPath = New Drawing2D.GraphicsPath()
         Dim myRectangle As Rectangle = btn.ClientRectangle
@@ -21,5 +22,33 @@
         'muestro el form
         childForm.BringToFront()
         childForm.Show()
+    End Sub
+
+    Public Function CargarDataGrid(filtro As String) As DataTable
+
+        Select Case filtro
+            Case "Sintomas"
+                Dim grid As New Sintoma
+                Return grid.ObtenerSintomas()
+            Case "Enfermedades"
+                Dim grid As New Enfermedad
+                Return grid.ObtenerEnfermedades()
+            Case "Medicos"
+                Dim grid As New Medico
+                Return grid.ObtenerMedicos()
+            Case ""
+                MsgBox("Debe seleccionar")
+        End Select
+
+    End Function
+    Public Sub cargarComboBox(cb As ComboBox)
+        Dim sinObt As New Sintoma
+        With cb
+            .DataSource = sinObt.DevolverSintomaComboBox.Tables(0)
+            .DisplayMember = "nombre" 'elnombre de tu columna de tu base de datos q deseas mostrar
+            .ValueMember = "id" 'el id de tu tabla relacionada con el nombre que muestras muy importante para saber el ide de quien seleccionas en tu combobox
+            .Text = "SINTOMA"
+        End With
+
     End Sub
 End Module

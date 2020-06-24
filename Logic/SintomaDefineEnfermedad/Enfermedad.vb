@@ -15,18 +15,25 @@ Public Class Enfermedad
 
     Public Function ObtenerEnfermedades() As DataTable
         Dim consu As New GetEnfermedades()
-        Return consu.ObtenerEnfermedad()
+        Return consu.ObtenerEnfermedades()
     End Function
-
-    Public Function GuardarEnfermedad() As Boolean
+    Public Function GuardarEnfermedad(enf As Enfermedad) As Boolean
         Dim consu As New SetEnfermedades()
-        Return consu.SetEnfermedad(_nombre, _riesgo, _descripcion)
+        With enf
+            Return consu.SetEnfermedad(._nombre, ._riesgo, ._descripcion)
+        End With
     End Function
 
-    Public Function ModificarEnfermedad() As Boolean
+    Public Function ModificarEnfermedad(enf As Enfermedad) As Boolean
         Dim consu As New AlterEnfermedades()
-        Return consu.ModifEnfermedad(_nombre, _riesgo, _descripcion)
+        With enf
+            Return consu.ModifEnfermedad(._nombre, ._riesgo, ._descripcion)
+        End With
     End Function
 
+    Public Function BorrarEnfermedad(dato As String) As Boolean
+        Dim consu As New DeleteEnfermedad()
+        Return consu.BorrarEnfermedad(dato)
+    End Function
 
 End Class

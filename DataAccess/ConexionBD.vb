@@ -1,13 +1,18 @@
-﻿Imports Mysql.Data.MySqlClient
-Public Class ConexionBD
+﻿Imports MySql.Data.MySqlClient
+Public MustInherit Class ConexionBD
     'declaro MustInherits para que no se pueda crear una instancia(objeto) de esta clase
     'cadena de conexion a la bd
-    Private connString As String = "server=192.168.1.2;database=mibasededatos;user id=root;password=holahola;port=3306;"
+    Private connString As String = "server=localhost;database=consultamedicabd;user id=eberon;password=silomontolomeo;port=3306;"
     Private conn As MySqlConnection
 
-    Public Sub New()
+    Protected Sub New()
         conn = New MySqlConnection(connString)
     End Sub
+
+    Protected Function GetConnection() As MySqlConnection
+        Return New MySqlConnection(connString)
+    End Function
+
     Public Sub OpenConnection() 'Metodo para abrir conexion
         conn.Open()
     End Sub
@@ -38,11 +43,11 @@ Public Class ConexionBD
             Dim resultadoSQL As MySqlDataReader = commandSQL.ExecuteReader()
 
             If resultadoSQL.Read() Then 'Encontro dato return true sino false
+                conn.Close()
                 Return True 'La consulta SE ejecuto correctamente
-                conn.Close()
             Else
-                Return False 'La consulta NO se ejecuto correctamente
                 conn.Close()
+                Return False 'La consulta NO se ejecuto correctamente
             End If
             conn.Close()
         Catch ex As Exception
@@ -69,5 +74,25 @@ Public Class ConexionBD
         End Try
         Return dataTable
     End Function
+    Public Function DevolverParaComboBox(consulta As String) As DataSet
+        Dim dataSet As New DataSet
+        Dim adapter As MySqlDataAdapter
+        Dim commadnSQL As MySqlCommand
 
+        Try
+            conn.Open()
+            commadnSQL = New MySqlCommand()
+            commadnSQL.CommandText = consulta
+            commadnSQL.CommandType = CommandType.Text
+            commadnSQL.Connection = conn
+
+            adapter = New MySqlDataAdapter(commadnSQL)
+            adapter.Fill(dataSet)
+            conn.Close()
+        Catch ex As Exception
+            MsgBox("Error : " & ex.Message)
+            conn.Close()
+        End Try
+        Return dataSet
+    End Function
 End Class

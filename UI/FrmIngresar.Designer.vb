@@ -61,8 +61,7 @@ Partial Class FrmIngresar
         Me.cbSintoma1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma1.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma1.FormattingEnabled = True
-        Me.cbSintoma1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9"})
-        Me.cbSintoma1.Location = New System.Drawing.Point(15, 360)
+        Me.cbSintoma1.Location = New System.Drawing.Point(15, 392)
         Me.cbSintoma1.Name = "cbSintoma1"
         Me.cbSintoma1.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma1.TabIndex = 4
@@ -75,7 +74,7 @@ Partial Class FrmIngresar
         Me.cbSintoma7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma7.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma7.FormattingEnabled = True
-        Me.cbSintoma7.Location = New System.Drawing.Point(15, 417)
+        Me.cbSintoma7.Location = New System.Drawing.Point(15, 455)
         Me.cbSintoma7.Name = "cbSintoma7"
         Me.cbSintoma7.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma7.TabIndex = 8
@@ -87,7 +86,7 @@ Partial Class FrmIngresar
         Me.cbSintoma4.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma4.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma4.FormattingEnabled = True
-        Me.cbSintoma4.Location = New System.Drawing.Point(15, 390)
+        Me.cbSintoma4.Location = New System.Drawing.Point(15, 424)
         Me.cbSintoma4.Name = "cbSintoma4"
         Me.cbSintoma4.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma4.TabIndex = 6
@@ -99,7 +98,7 @@ Partial Class FrmIngresar
         Me.cbSintoma2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma2.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma2.FormattingEnabled = True
-        Me.cbSintoma2.Location = New System.Drawing.Point(227, 360)
+        Me.cbSintoma2.Location = New System.Drawing.Point(227, 392)
         Me.cbSintoma2.Name = "cbSintoma2"
         Me.cbSintoma2.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma2.TabIndex = 5
@@ -111,7 +110,7 @@ Partial Class FrmIngresar
         Me.cbSintoma5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma5.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma5.FormattingEnabled = True
-        Me.cbSintoma5.Location = New System.Drawing.Point(227, 390)
+        Me.cbSintoma5.Location = New System.Drawing.Point(227, 424)
         Me.cbSintoma5.Name = "cbSintoma5"
         Me.cbSintoma5.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma5.TabIndex = 7
@@ -139,7 +138,7 @@ Partial Class FrmIngresar
         Me.btnIngresarEnfermedad.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnIngresarEnfermedad.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIngresarEnfermedad.ForeColor = System.Drawing.Color.Silver
-        Me.btnIngresarEnfermedad.Location = New System.Drawing.Point(433, 480)
+        Me.btnIngresarEnfermedad.Location = New System.Drawing.Point(433, 498)
         Me.btnIngresarEnfermedad.Name = "btnIngresarEnfermedad"
         Me.btnIngresarEnfermedad.Size = New System.Drawing.Size(200, 40)
         Me.btnIngresarEnfermedad.TabIndex = 12
@@ -195,7 +194,7 @@ Partial Class FrmIngresar
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Silver
-        Me.Label5.Location = New System.Drawing.Point(13, 294)
+        Me.Label5.Location = New System.Drawing.Point(12, 372)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(154, 17)
         Me.Label5.TabIndex = 3
@@ -208,7 +207,7 @@ Partial Class FrmIngresar
         Me.cbSintoma8.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma8.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma8.FormattingEnabled = True
-        Me.cbSintoma8.Location = New System.Drawing.Point(227, 417)
+        Me.cbSintoma8.Location = New System.Drawing.Point(227, 455)
         Me.cbSintoma8.Name = "cbSintoma8"
         Me.cbSintoma8.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma8.TabIndex = 9
@@ -220,7 +219,7 @@ Partial Class FrmIngresar
         Me.cbSintoma3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma3.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma3.FormattingEnabled = True
-        Me.cbSintoma3.Location = New System.Drawing.Point(433, 360)
+        Me.cbSintoma3.Location = New System.Drawing.Point(433, 392)
         Me.cbSintoma3.Name = "cbSintoma3"
         Me.cbSintoma3.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma3.TabIndex = 5
@@ -232,7 +231,7 @@ Partial Class FrmIngresar
         Me.cbSintoma6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma6.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma6.FormattingEnabled = True
-        Me.cbSintoma6.Location = New System.Drawing.Point(433, 390)
+        Me.cbSintoma6.Location = New System.Drawing.Point(433, 424)
         Me.cbSintoma6.Name = "cbSintoma6"
         Me.cbSintoma6.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma6.TabIndex = 7
@@ -244,7 +243,7 @@ Partial Class FrmIngresar
         Me.cbSintoma9.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbSintoma9.ForeColor = System.Drawing.Color.Silver
         Me.cbSintoma9.FormattingEnabled = True
-        Me.cbSintoma9.Location = New System.Drawing.Point(433, 417)
+        Me.cbSintoma9.Location = New System.Drawing.Point(433, 455)
         Me.cbSintoma9.Name = "cbSintoma9"
         Me.cbSintoma9.Size = New System.Drawing.Size(200, 25)
         Me.cbSintoma9.TabIndex = 9
@@ -257,7 +256,7 @@ Partial Class FrmIngresar
         Me.cbRiesgo.ForeColor = System.Drawing.Color.Silver
         Me.cbRiesgo.FormattingEnabled = True
         Me.cbRiesgo.Items.AddRange(New Object() {"azul", "verde", "amarillo", "naranja"})
-        Me.cbRiesgo.Location = New System.Drawing.Point(15, 314)
+        Me.cbRiesgo.Location = New System.Drawing.Point(15, 294)
         Me.cbRiesgo.Name = "cbRiesgo"
         Me.cbRiesgo.Size = New System.Drawing.Size(200, 25)
         Me.cbRiesgo.TabIndex = 4
@@ -272,7 +271,7 @@ Partial Class FrmIngresar
         Me.txtDescripcion.Location = New System.Drawing.Point(227, 294)
         Me.txtDescripcion.Multiline = True
         Me.txtDescripcion.Name = "txtDescripcion"
-        Me.txtDescripcion.Size = New System.Drawing.Size(406, 60)
+        Me.txtDescripcion.Size = New System.Drawing.Size(406, 83)
         Me.txtDescripcion.TabIndex = 3
         Me.txtDescripcion.Text = "Descripcion"
         '

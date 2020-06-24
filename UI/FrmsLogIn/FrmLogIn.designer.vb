@@ -22,6 +22,7 @@ Partial Class FrmLogIn
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.topPanel = New System.Windows.Forms.Panel()
         Me.btnClose = New System.Windows.Forms.PictureBox()
@@ -38,11 +39,13 @@ Partial Class FrmLogIn
         Me.llbForgotPassIn = New System.Windows.Forms.LinkLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.btnChangeLanguage = New System.Windows.Forms.PictureBox()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.topPanel.SuspendLayout()
         CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnMinimize, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -227,6 +230,10 @@ Partial Class FrmLogIn
         Me.btnChangeLanguage.TabIndex = 8
         Me.btnChangeLanguage.TabStop = False
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'FrmLogIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -256,6 +263,7 @@ Partial Class FrmLogIn
         CType(Me.btnMinimize, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnChangeLanguage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -277,4 +285,5 @@ Partial Class FrmLogIn
     Friend WithEvents btnChangeLanguage As PictureBox
     Friend WithEvents llbForgotPassIn As LinkLabel
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class

@@ -64,6 +64,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HorariosMedico.vb" />
+    <Compile Include="SintomaDefineEnfermedad\Define.vb" />
     <Compile Include="SintomaDefineEnfermedad\Enfermedad.vb" />
     <Compile Include="Gerente.vb" />
     <Compile Include="Medico.vb" />

@@ -5,12 +5,13 @@
         Try
             _consultaSQL = "UPDATE enfermedad SET "
             _consultaSQL &= "nombre = '" & nombreEnfermedad & "',"
-            _consultaSQL &= "riesgo = " & riesgo & ","
+            _consultaSQL &= "riesgo = '" & riesgo & "',"
             _consultaSQL &= "descripcion = '" & descripcion & "' "
-            _consultaSQL &= "where nombre= " & nombreEnfermedad
+            _consultaSQL &= "where nombre= '" & nombreEnfermedad & "';"
             consultaEjecutar(_consultaSQL)
             Return True
         Catch ex As Exception
+            MsgBox("ERROR::AlterEnfermedad" & ex.Message)
             Return False
         End Try
     End Function

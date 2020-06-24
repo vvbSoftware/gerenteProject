@@ -1,8 +1,8 @@
 ﻿Public Class GetEnfermedades
     Inherits ConexionBD
-    Public Function ObtenerEnfermedad() As DataTable
+    Public Function ObtenerEnfermedades() As DataTable
         Dim _consultaSQL As String
-        _consultaSQL = "SELECT * FROM enfermedad"
+        _consultaSQL = "select idEnf,nombre,riesgo,descripcion,nomSint FROM enfermedad join define ON nombre=nomENf Group by nomEnf;"
         Return DevolverTabla(_consultaSQL)
     End Function
 End Class

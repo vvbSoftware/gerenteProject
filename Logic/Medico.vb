@@ -34,4 +34,9 @@ Public Class Medico
         Return consu.ModifMedico(_ciM, _especialidad, _numMed)
     End Function
 
+    Public Function BorrarMedico(dato As String) As Boolean
+        Dim consu As New DeleteMedico()
+        Return consu.BorarMedico(dato)
+    End Function
+
 End Class
